@@ -1,10 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <string.h>
 
 int main(){
     int i,h=0,t=0;
+
+    char name[128];
+	//name = (char *)malloc(sizeof(char) * 128);
+	//if (name == NULL) exit(1);
+
     srand(time(NULL));   // Initialization, should only be called once.
+
+    printf("Who are you?\n");
+    scanf("%s",name);
+    printf("Hello, %s!\n",name);
     
     printf("Tossing a Coin...\n");
 
