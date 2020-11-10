@@ -16,7 +16,7 @@ int main(){
     scanf("%s",name);
     printf("Hello, %s!\n",name);
     
-    printf("Tossing a Coin...\n");
+    printf("Tossing a Coin bro...\n");
 
     for(i=0;i<3;i++){
         printf("Round %d: ",i+1);
